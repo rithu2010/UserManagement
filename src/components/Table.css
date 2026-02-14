@@ -1,0 +1,68 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+.custom-table {
+
+  width: 100%;
+  min-width: 1000px;   
+  border-collapse: collapse;
+
+}
+.custom-table th,
+.custom-table td {
+
+  padding: 16px 20px;   
+  border-bottom: 1px solid #eee;
+  text-align: center;
+
+}
+
+.custom-table thead {
+
+  background: linear-gradient(to right, #4f46e5, #6366f1);
+  color: white;
+  font-size: 16px;
+
+}
+
+
+.custom-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.custom-table tr:hover {
+  background: #f3f4f6;
+}
+
+/* Edit Button */
+
+.edit-btn {
+  background: #f59e0b;
+  border: none;
+  padding: 6px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #d97706;
+}
+
+/* Delete Button */
+
+.delete-btn {
+  background: #ef4444;
+  border: none;
+  padding: 6px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
